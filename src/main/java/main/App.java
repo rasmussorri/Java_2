@@ -7,7 +7,6 @@ public class App
     public static void main( String[] args ) {
         Scanner sc = new Scanner(System.in);
         Hedgehog hedgehog = new Hedgehog();
-        //Hedgehog newHedgehog = null;
 
         boolean exit = false;
         while(!exit) {
@@ -46,7 +45,7 @@ public class App
                         break;
                     
                     default:
-                        System.out.println("Syöte oli väärä.");
+                        System.out.println("Syöte oli väärä");
                         break;
                         
                 }
